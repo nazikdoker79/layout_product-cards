@@ -1,11 +1,13 @@
+@import '../styles/variables';
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: #060b35;
+  color: $main-text-color;
 }
 
-@import '../styles/product';
+@import '../styles/card';
 @import '../styles/star';
