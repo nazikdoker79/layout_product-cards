@@ -1,4 +1,4 @@
-@import '../styles/variables';
+@import 'variables';
 
 body {
   margin: 0;
@@ -9,5 +9,5 @@ body {
   color: $main-text-color;
 }
 
-@import '../styles/card';
-@import '../styles/star';
+@import 'card';
+@import 'star';

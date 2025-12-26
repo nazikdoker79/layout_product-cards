@@ -1,7 +1,7 @@
 .card {
   box-sizing: border-box;
   width: 200px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $card-border-color;
   border-radius: 5px;
   padding: 16px;
 
@@ -43,7 +43,7 @@
     margin-top: 24px;
     color: $second-text-color;
 
-    .price {
+    &-text {
       font-weight: 700;
       font-size: 16px;
       color: $main-text-color;
@@ -55,21 +55,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00acdc;
+    background-color: $button-color;
     border-radius: 5px;
     height: 40px;
     margin-top: 16px;
     text-decoration: none;
-    color: white;
+    color: $main-bg-color;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
 
     &:hover {
-      background-color: #fff;
-      color: #00acdc;
-      border: 1px solid #00acdc;
+      background-color: $main-bg-color;
+      color: $button-color;
+      border: 1px solid $button-color;
     }
   }
 }
